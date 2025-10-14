@@ -17,7 +17,7 @@ This document summarizes each analytical step performed to process, normalize, s
 
 
 * **Notebook File Name:** [Notebook_0_Load_Libraries.ipynb](scripts/Notebook_0_Load_Libraries.ipynb)
-* **HTML Output:** [Notebook_0_Load_Libraries.html](https://Mohamed-H-Hussein.github.io/Machine-Learning-Based-Analysis-of-Gene-Expression-Profiles-in-Breast-Cancer/Notebook_0_Load_Libraries.html)
+* **HTML Output:** [Notebook_0_Load_Libraries.html](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/Notebook_0_Load_Libraries.html)
 * **Input:** None (Python libraries loaded from environment)
 * **Output:** Confirmation of library versions and Python/Jupyter environment setup
 * **Figures:** None
@@ -69,7 +69,7 @@ This notebook initializes the Python environment by loading all libraries requir
 [Notebook_1_Data_Exploration_and_Cleaning.ipynb](scripts/Notebook_1_Data_Exploration_and_Cleaning.ipynb)
 
 **HTML Output file:**
-[Notebook_1_Data_Exploration_and_Cleaning.html](https://Mohamed-H-Hussein.github.io/Machine-Learning-Based-Analysis-of-Gene-Expression-Profiles-in-Breast-Cancer/Notebook_1_Data_Exploration_and_Cleaning.html)
+[Notebook_1_Data_Exploration_and_Cleaning.html](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/Notebook_1_Data_Exploration_and_Cleaning.html)
 
 ---
 
@@ -142,7 +142,7 @@ PCA analysis was used to identify clustering trends between cancer and normal sa
 [Notebook_2_Preprocessing_Normalization.ipynb](scripts/Notebook_2_Preprocessing_Normalization.ipynb)
 
 **HTML Output file:**
-[Notebook_2_Preprocessing_Normalization.html](https://Mohamed-H-Hussein.github.io/Machine-Learning-Based-Analysis-of-Gene-Expression-Profiles-in-Breast-Cancer/Notebook_2_Preprocessing_Normalization.html)
+[Notebook_2_Preprocessing_Normalization.html](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/Notebook_2_Preprocessing_Normalization.html)
 
 ---
 
@@ -195,8 +195,8 @@ Dimensionality reduction via **PCA** was performed to visualize separation patte
 6. Generated visualizations (histogram and PCA) to assess normalization effects.
 7. Saved outputs:
 
-   * [data_normalized_minmax.csv](results/data_normalized_minmax.xls)
-   * [pca_normalized_coordinates.csv](results/pca_normalized_coordinates.xls)
+   * [data_normalized_minmax.xls](results/data_normalized_minmax.xls)
+   * [pca_normalized_coordinates.xls](results/pca_normalized_coordinates.xls)
 
 ---
 
@@ -216,13 +216,13 @@ Dimensionality reduction via **PCA** was performed to visualize separation patte
 [Notebook_3_Feature_Selection.ipynb](scripts/Notebook_3_Feature_Selection.ipynb)
 
 **HTML Output file:**
-[Notebook_3_Feature_Selection.html](https://Mohamed-H-Hussein.github.io/Machine-Learning-Based-Analysis-of-Gene-Expression-Profiles-in-Breast-Cancer/Notebook_3_Feature_Selection.html)
+[Notebook_3_Feature_Selection.html](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/Notebook_3_Feature_Selection.html)
 
 ---
 
 ### 🔹 Input
 
-* **Data file:** [data_normalized_minmax.csv](results/data_normalized_minmax.csv)
+* **Data file:** [data_normalized_minmax.xls](results/data_normalized_minmax.xls)
 * **Description:** Normalized breast cancer expression dataset generated from Notebook 2 (58 samples × 15,619 genes).
 * **Purpose:** Select the most informative 50 genes using Mutual Information for machine learning classification.
 
@@ -230,7 +230,7 @@ Dimensionality reduction via **PCA** was performed to visualize separation patte
 
 ### 🔹 Output
 
-* Selected top 50 genes [selected_genes_top50.csv](results/selected_genes_top50.csv)
+* Selected top 50 genes [selected_genes_top50.xls](results/selected_genes_top50.xls)
 * Training and testing subsets (pickled files)
    * [X_train_selected.pkl](results/X_train_selected.pkl)
    * [X_test_selected.pkl](results/X_test_selected.pkl)
@@ -292,7 +292,7 @@ The process ensures reduced dimensionality while preserving biologically relevan
 ## 📘 Notebook 4: Model Building & Evaluation
 
 **Jupyter Notebook file name:** [Notebook_4_Model_Building_Evaluation.ipynb](scripts/Notebook_4_Model_Building_Evaluation.ipynb)
-**HTML Output file:** [Notebook_4_Model_Building_Evaluation.html](https://Mohamed-H-Hussein.github.io/Machine-Learning-Based-Analysis-of-Gene-Expression-Profiles-in-Breast-Cancer/Notebook_4_Model_Building_Evaluation.html) 
+**HTML Output file:** [Notebook_4_Model_Building_Evaluation.html](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/Notebook_4_Model_Building_Evaluation.html) 
 
 ---
 
@@ -361,7 +361,7 @@ The **Random Forest** model identified the following top marker genes contributi
 
 Results were exported as:
 
-* [top_20_marker_genes.csv](results/top_20_marker_genes.csv)
+* [top_20_marker_genes.xls](results/top_20_marker_genes.xls)
 * [top_20_marker_genes.png](figures/top_20_marker_genes.png)
 
 ---
@@ -389,7 +389,7 @@ Results were exported as:
 ## Notebook 5 – Cross-Validation & Hyperparameter Tuning
 
 **Jupyter Notebook file:** [Notebook_5_CrossValidation_Hyperparameter_Tuning.ipynb](./Notebook_5_CrossValidation_Hyperparameter_Tuning.ipynb)
-**HTML Output:** [Notebook_5_CrossValidation_Hyperparameter_Tuning.html](https://Mohamed-H-Hussein.github.io/Machine-Learning-Based-Analysis-of-Gene-Expression-Profiles-in-Breast-Cancer/Notebook_5_CrossValidation_Hyperparameter_Tuning.html) 
+**HTML Output:** [Notebook_5_CrossValidation_Hyperparameter_Tuning.html](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/Notebook_5_CrossValidation_Hyperparameter_Tuning.html) 
 
 ### 🔹 Input
 
