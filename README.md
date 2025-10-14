@@ -258,12 +258,12 @@ They can be run sequentially or individually to inspect intermediate results, fi
 
 | Step | Notebook | Description |
 |------|-----------|-------------|
-| 00 | [Notebook_0_Load_Libraries.ipynb](Notebook_0_Load_Libraries.ipynb) | Import dependencies and initialize the environment |
-| 01 | [Notebook_1_Data_Exploration_and_Cleaning.ipynb](Notebook_1_Data_Exploration_and_Cleaning.ipynb) | Explore raw data, handle missing values, and detect outliers |
-| 02 | [Notebook_2_Preprocessing_Normalization.ipynb](Notebook_2_Preprocessing_Normalization.ipynb) | Perform feature scaling, normalization, and encoding |
+| 00 | [Notebook_0_Load_Libraries.ipynb](scripts/Notebook_0_Load_Libraries.ipynb) | Import dependencies and initialize the environment |
+| 01 | [Notebook_1_Data_Exploration_and_Cleaning.ipynb](scripts/Notebook_1_Data_Exploration_and_Cleaning.ipynb) | Explore raw data, handle missing values, and detect outliers |
+| 02 | [Notebook_2_Preprocessing_Normalization.ipynb](scripts/Notebook_2_Preprocessing_Normalization.ipynb) | Perform feature scaling, normalization, and encoding |
 | 03 | [Notebook_3_Feature_Selection.ipynb](Notebook_3_Feature_Selection.ipynb) | Select the most informative genes using variance and correlation filters |
-| 04 | [Notebook_4_Model_Building_Evaluation.ipynb](Notebook_4_Model_Building_Evaluation.ipynb) | Train ML classifiers (SVM, RF, LR) and evaluate model performance |
-| 05 | [Notebook_5_CrossValidation_Hyperparameter_Tuning.ipynb](Notebook_5_CrossValidation_Hyperparameter_Tuning.ipynb) | Apply k-fold cross-validation and tune hyperparameters for best accuracy |
+| 04 | [Notebook_4_Model_Building_Evaluation.ipynb](scripts/Notebook_4_Model_Building_Evaluation.ipynb) | Train ML classifiers (SVM, RF, LR) and evaluate model performance |
+| 05 | [Notebook_5_CrossValidation_Hyperparameter_Tuning.ipynb](scripts/Notebook_5_CrossValidation_Hyperparameter_Tuning.ipynb) | Apply k-fold cross-validation and tune hyperparameters for best accuracy |
 
 To export any notebook as HTML for interactive viewing:
 
