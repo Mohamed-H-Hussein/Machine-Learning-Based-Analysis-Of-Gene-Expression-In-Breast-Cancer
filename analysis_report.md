@@ -195,8 +195,8 @@ Dimensionality reduction via **PCA** was performed to visualize separation patte
 6. Generated visualizations (histogram and PCA) to assess normalization effects.
 7. Saved outputs:
 
-   * [data_normalized_minmax.csv](results/data_normalized_minmax.csv)
-   * [pca_normalized_coordinates.csv](results/pca_normalized_coordinates.csv)
+   * [data_normalized_minmax.csv](results/data_normalized_minmax.xls)
+   * [pca_normalized_coordinates.csv](results/pca_normalized_coordinates.xls)
 
 ---
 
@@ -270,7 +270,7 @@ The process ensures reduced dimensionality while preserving biologically relevan
 5. Visualized feature importance across all genes.
 6. Exported results as:
 
-   * [selected_genes_top50.csv](results/selected_genes_top50.csv)
+   * [selected_genes_top50.xls](results/selected_genes_top50.xls)
    * [X_train_selected.pkl](results/X_train_selected.pkl)
    * [X_test_selected.pkl](results/X_test_selected.pkl)
    * [y_train.pkl](results/y_train.pkl)
@@ -300,11 +300,11 @@ The process ensures reduced dimensionality while preserving biologically relevan
 
 **Data files:**
 
-* [X_train_selected.pkl](data/X_train_selected.pkl)
-* [X_test_selected.pkl](data/X_test_selected.pkl)
-* [y_train.pkl](data/y_train.pkl)
-* [y_test.pkl](data/y_test.pkl)
-* [selected_gene_names.pkl](data/selected_gene_names.pkl)
+* [X_train_selected.pkl](results/X_train_selected.pkl)
+* [X_test_selected.pkl](results/X_test_selected.pkl)
+* [y_train.pkl](results/y_train.pkl)
+* [y_test.pkl](results/y_test.pkl)
+* [selected_gene_names.pkl](results/selected_gene_names.pkl)
 
 **Description:**
 Feature-selected datasets generated from **Notebook 3 (Feature Selection)** using the top 50 informative genes.
@@ -317,7 +317,7 @@ These inputs are used to train and evaluate classification models distinguishing
 **Generated Files:**
 
 * [confusion_matrices.png](figures/confusion_matrices.png)
-* [top_20_marker_genes.csv](results/top_20_marker_genes.csv)
+* [top_20_marker_genes.xls](results/top_20_marker_genes.xls)
 * [top_20_marker_genes.png](figures/top_20_marker_genes.png)
 
 **Description:**
@@ -393,11 +393,11 @@ Results were exported as:
 
 ### 🔹 Input
 
-* [X_train_selected.pkl](./X_train_selected.pkl)
-* [X_test_selected.pkl](./X_test_selected.pkl)
-* [y_train.pkl](./y_train.pkl)
-* [y_test.pkl](./y_test.pkl)
-* [selected_gene_names.pkl](./selected_gene_names.pkl)
+* [X_train_selected.pkl](results/X_train_selected.pkl)
+* [X_test_selected.pkl](results/X_test_selected.pkl)
+* [y_train.pkl](results/y_train.pkl)
+* [y_test.pkl](results/y_test.pkl)
+* [selected_gene_names.pkl](results/selected_gene_names.pkl)
 
 
 **Description:** Feature-selected gene-expression data (50 genes, 58 samples) generated from Notebook 3.
@@ -408,10 +408,10 @@ Results were exported as:
 ### 🔹 Output
 
 د
-* [best_RF_model.pkl](./best_RF_model.pkl)
-* [best_SVM_model.pkl](./best_SVM_model.pkl)
-* [cv_model_performance_summary.csv](./cv_model_performance_summary.csv)
-* [model_comparison_cv.png](./model_comparison_cv.png)
+* [best_RF_model.pkl](results/best_RF_model.pkl)
+* [best_SVM_model.pkl](results/best_SVM_model.pkl)
+* [cv_model_performance_summary.xls](results/cv_model_performance_summary.xls)
+* [model_comparison_cv.png](figures/model_comparison_cv.png)
 
 
 ---
@@ -420,7 +420,7 @@ Results were exported as:
 
 | Figure                  | Description                                                                                             |
 | ----------------------- | ------------------------------------------------------------------------------------------------------- |
-| [model_comparison_cv.png](./model_comparison_cv.png) | Bar plot comparing cross-validation accuracy between Random Forest and SVM after hyperparameter tuning. |
+| [model_comparison_cv.png](figures/model_comparison_cv.png) | Bar plot comparing cross-validation accuracy between Random Forest and SVM after hyperparameter tuning. |
 
 ---
 
