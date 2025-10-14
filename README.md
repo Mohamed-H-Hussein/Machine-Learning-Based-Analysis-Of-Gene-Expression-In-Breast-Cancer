@@ -165,7 +165,7 @@ This project includes **interactive HTML versions** of all Jupyter notebooks, al
 
 ### 📎 View live HTML reports here:
 
-👉 [https://mohamed-h-hussien.github.io/Machine-Learning-Based-Analysis-of-Gene-Expression-Profiles-In-Breast-Cancer/](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/)
+👉 [https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/)
 ### Available HTML Reports:
 
 | Step | Notebook | HTML File |
