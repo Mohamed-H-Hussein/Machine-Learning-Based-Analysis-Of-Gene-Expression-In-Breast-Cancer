@@ -165,17 +165,17 @@ This project includes **interactive HTML versions** of all Jupyter notebooks, al
 
 ### 📎 View live HTML reports here:
 
-👉 [https://mohamed-h-hussien.github.io/Machine-Learning-Based-Analysis-of-Gene-Expression-Profiles-In-Breast-Cancer/](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/))
+👉 [https://mohamed-h-hussien.github.io/Machine-Learning-Based-Analysis-of-Gene-Expression-Profiles-In-Breast-Cancer/](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/)
 ### Available HTML Reports:
 
 | Step | Notebook | HTML File |
 |------|-----------|-----------|
-| 00 | Load Libraries | [Notebook_0_Load_Libraries.html](https://Mohamed-H-Hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-Profiles-In-Breast-Cancer/Notebook_0_Load_Libraries.html) |
-| 01 | Data Exploration and Cleaning | [Notebook_1_Data_Exploration_and_Cleaning.html](https://mohamed-h-hussien.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-Profiles-In-Breast-Cancer/Notebook_1_Data_Exploration_and_Cleaning.html) |
-| 02 | Preprocessing and Normalization | [Notebook_2_Preprocessing_Normalization.html](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-Profiles-In-Breast-Cancer/Notebook_2_Preprocessing_Normalization.html) |
-| 03 | Feature Selection | [Notebook_3_Feature_Selection.html](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-Profiles-In-Breast-Cancer/Notebook_3_Feature_Selection.html) |
-| 04 | Model Building and Evaluation | [Notebook_4_Model_Building_Evaluation.html](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-Profiles-In-Breast-Cancer/Notebook_4_Model_Building_Evaluation.html) |
-| 05 | Cross-Validation and Hyperparameter Tuning | [Notebook_5_CrossValidation_Hyperparameter_Tuning.html](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-Profiles-In-Breast-Cancer/Notebook_5_CrossValidation_Hyperparameter_Tuning.html) |
+| 00 | Load Libraries | [Notebook_0_Load_Libraries.html](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/Notebook_0_Load_Libraries.html) |
+| 01 | Data Exploration and Cleaning | [Notebook_1_Data_Exploration_and_Cleaning.html](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/Notebook_1_Data_Exploration_and_Cleaning.html)|
+| 02 | Preprocessing and Normalization | [Notebook_2_Preprocessing_Normalization.html](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/Notebook_2_Preprocessing_Normalization.html)|
+| 03 | Feature Selection | [Notebook_3_Feature_Selection.html](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/Notebook_3_Feature_Selection.html) |
+| 04 | Model Building and Evaluation | [Notebook_4_Model_Building_Evaluation.html](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/Notebook_4_Model_Building_Evaluation.html) |
+| 05 | Cross-Validation and Hyperparameter Tuning | [Notebook_5_CrossValidation_Hyperparameter_Tuning.html](https://mohamed-h-hussein.github.io/Machine-Learning-Based-Analysis-Of-Gene-Expression-In-Breast-Cancer/Notebook_5_CrossValidation_Hyperparameter_Tuning.html) |
 
 Use these HTML reports to explore the analysis interactively and review detailed results.
 
