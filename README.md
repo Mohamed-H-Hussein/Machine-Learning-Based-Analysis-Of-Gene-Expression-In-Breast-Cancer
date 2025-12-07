@@ -244,9 +244,9 @@ Comparative performance of classifiers (Accuracy, F1-score, AUC) with k-fold val
 | ![Model Comparison](figures/model_comparison_cv.png) 
 
 ---
-```
+
 > These visualizations summarize the **machine learning workflow** — from raw data exploration to model validation — providing a clear overview of feature importance, performance, and reproducibility.
-```
+
 
 ---
 
